@@ -1,0 +1,26 @@
+000362,Weasley,Ron,Math,3.7
+700280,Granger,Hermione,Criminal Justice,4.0
+400284,Potter,Harry,Criminal Justice,3.8
+087027,Weasley,Ginny,Computer Science,3.4
+012204,Weasley,Fred,Computer Science,3.0
+014209,Dersley,Dudley,Psychology,4.0
+309332,Longbottom,Neville,Math,2.9
+569027,Lovegood,Luna,Psychology,3.5
+032621,Brown,Lavender,Psychology,3.0
+496892,Wood,Oliver,Math,3.6
+596019,Crabbe,Vincent,Exercise Science,2.3
+209911,Goyl,Gregory,Exercise Science,2.1
+309001,Weasley,Bill,Biology,4.0
+609210,Weasley,Charlie,Math,3.8
+102146,Creevey,Colin,Exercise Science,4.0
+698102,Lupin,Teddy,Psychology,3.6
+100026,Pettigrew,Peter,Math,3.0
+690200,Weasley,Molly,Criminal Justice,3.7
+123968,Malfoy,Draco,Exercise Science,3.1
+303312,Chang,Cho,Computer Science,3.9
+203937,Diggory,Cedric,Math,3.6
+291001,Weasley,Arthur,Biology,3.5
+210125,Lupin,Remus,Criminal Justice,4.0
+102002,Black,Sirius,Exercise Science,4.0
+209355,Potter,James,Exercise Science,3.5
+108929,Potter,Lilly,Biology,3.7
