@@ -10,6 +10,12 @@ list
 - duplicate elements
 '''
 def main():
+    #empty set
+    mySet = set() # NEED TO USE - set() ### CANT DO mySet = {}
+    myDict = {}  # this is a dictionary
+    print(type(mySet)) # <class 'set'>
+    print(type(myDict)) # <class 'dict'>
+    
     fruits = {"apple", "banana", "cherry"}
     print(fruits)
     fruits.add("orange") # adds bc unique
