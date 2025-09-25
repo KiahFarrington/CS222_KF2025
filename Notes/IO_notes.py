@@ -63,7 +63,31 @@ def main():
         for k, v in studentList.items():
             if v[2] == "Math":
                 print(k + " " + v[0]+", "+v[1]) 
+                
+        writeFileNotes(studentList)
+    
     except FileNotFoundError:
         print("File not found")
+
+
+def writeFileNotes(studentList): 
+    try:
+        # Open a file for writing (creates or overwrites)
+        fileOutput = open("notes/students_info_copy.txt", 'w')
+        
+        for k, v in studentList.items():
+            # k is the ID, v is a list of [last, first, major, gpa]
+            # Build a CSV-style line (comma-separated, ending with newline)
+            line = f"{k},{v[0]},{v[1]},{v[2]},{v[3]}\n"
+
+            # Actually write the string to the file
+            fileOutput.write(line)
+
+        # Always close when done to flush the buffer
+        fileOutput.close()
+        print("\nstudents_summary.txt has been written.")
+    except OSError:
+        print("Error writing to file")
+
 
 main()
