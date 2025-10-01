@@ -1,5 +1,5 @@
 import unittest
-from Assignment6.Assingment6_calculator import Calculator
+from Assignment6.Assignment6_calculator import Calculator
 
 class test_Calculator(unittest.TestCase):
     def setUp(self):
