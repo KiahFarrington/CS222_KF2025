@@ -15,15 +15,15 @@ class TestCalculator(unittest.TestCase):
 
 
     def test_basic_sub(self):
-        self.assertEqual(self.calc.subtract(8,9), 1)
+        self.assertEqual(self.calc.subtract(9,8), 1)
 
     def test_decimals_sub(self):
-        self.assertAlmostEqual(self.calc.subtract(4.25,9.45), 5.20)  
+        self.assertAlmostEqual(self.calc.subtract(4.25,9.45), -5.20)  
 
 
 
     def test_basic_mul(self):
-        self.assertEqual(self.calc.multiply(2,16), 18)
+        self.assertEqual(self.calc.multiply(2,16), 32)
     
     def test_decimals_mul(self):
         self.assertAlmostEqual(self.calc.multiply(5.23,1.6), 8.37)  
@@ -31,7 +31,7 @@ class TestCalculator(unittest.TestCase):
 
 
     def test_basic_div(self):
-        self.assertEqual(self.calc.divide(2, 12), 6)
+        self.assertEqual(self.calc.divide(12, 2), 6)
 
     def test_decimals_div(self):
         self.assertAlmostEqual(self.calc.divide(15.6, 3.14), 4.97)
