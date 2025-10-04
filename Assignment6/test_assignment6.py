@@ -38,4 +38,4 @@ class TestCalculator(unittest.TestCase):
     
     def test_div_zero(self):
         with self.assertRaises(ZeroDivisionError):
-            self.calc.divide(3/0)
+            self.calc.divide(3, 0)
