@@ -26,7 +26,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(self.calc.multiply(2,16), 18)
     
     def test_decimals_mul(self):
-        self.assertAlmostEqual(self.calc.multiply(5.23,1.6),6.83)  
+        self.assertAlmostEqual(self.calc.multiply(5.23,1.6), 8.37)  
 
 
 
@@ -34,7 +34,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(self.calc.divide(2, 12), 6)
 
     def test_decimals_div(self):
-        self.assertAlmostEqual(self.calc.divide(3.14, 5.6))
+        self.assertAlmostEqual(self.calc.divide(15.6, 3.14), 4.97)
     
     def test_div_zero(self):
         with self.assertRaises(ZeroDivisionError):
